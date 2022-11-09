@@ -1,0 +1,132 @@
+header{
+background-image: url(https://vean-tattoo.com/static/images/header-lg.webp);
+ background-size:100% 100%;
+ height:1000px
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+nav {
+ 
+    justify-content:flex-ende;
+    display: flex;
+  padding: 25px 100px 25px 95px;
+}
+a{
+ float: left;
+ color: white;
+ font-size: 32px;
+ text-decoration: none;
+  padding: 25px 100px 25px 95px;
+}
+.shadow-text{
+  color: white; /* Цвет  текста /
+  font-size: 2em; / Размер  текста */
+  font-weight: bold;
+
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.shadow-text:hover{
+  color: #C9D4D4; /* Меняем цвет текста */
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
+
+section h1 {
+    text-align: left;
+    color: white;
+    font-size: 36px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+h2{
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+ color:white;
+}
+.brand{
+ font-size:32px;
+ 
+}
+.text{
+ font-size:20px;
+ 
+}
+
+.infa1{
+    font-size:48px;
+ color:white;
+}
+.infa2{
+    font-size:32px;
+ color:white;
+}
+
+section{
+ display: flex;
+   flex-direction: column;
+    float: left;
+ width:70%;
+ height: 1140px;
+}
+article{
+        
+}
+
+aside{
+        float: right;
+ width:30%;
+ height: 1140px;
+}
+
+.map{
+  display: flex;
+  justify-content: center; 
+  clear:both;
+}
+
+.town{
+   text-align:center;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  clear:both; 
+}
+main img{
+        height: 250px;
+ width: 345px;
+ jastify-content: center;
+ clear:both; 
+}
+
+footer {
+    background-color: #C4C4C4;
+    padding: ;
+    display: flex;
+   
+}
+
+.media {
+    margin-right: ;
+ border-radius: 50%;
+}
+
+footer p {
+    font-size: 24px;
+    color:black;  
+}
